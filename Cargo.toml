@@ -1,0 +1,17 @@
+[package]
+name = "cmsg"
+version = "0.1.0"
+authors = ["Dan Glastonbury <dan.glastonbury@gmail.com>"]
+description = """
+Helpers for creating and accessing Unix domain socket control messages.
+"""
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/djg/cmsg-rs"
+homepage = "https://github.com/djg/cmsg-rs"
+keywords = ["unix", "socket", "cmsg", "fd"]
+categories = ["os::unix-apis"]
+
+[dependencies]
+bytes = "0.4"
+libc = "0.2"
